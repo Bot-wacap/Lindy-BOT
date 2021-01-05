@@ -1,6 +1,6 @@
 const kodenuklir = () => { 
 	return `	
-	*Hi👋👋* *TOBAT BRO ASTAGHFIRULLAH 😌*
+      *TOBAT BRO ASTAGHFIRULLAH 😌*
 
 Code Nuklear [Doujin Hentai Genre NTR] (Netorare)
 
