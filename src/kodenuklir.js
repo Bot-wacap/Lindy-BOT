@@ -8,7 +8,7 @@ Note : Easy mode = Sange, Biasa Aja, Mental Lemah :v
 ==============================
 Medium Mode = Bisa bikin sange, Lumayan nyesek, Rasanya pengen coli teros, Mental Batu
 ==============================
-Hard Mode = Menyebabkan amnesia, insomnia, hipotermia, kejang", serangan jantung, diare, pendarahan hebat, buang air tidak terkendali, rasa ingin baku hantam, frustasi, depresi, emosi tidak tertahan kan, sakit hati (ambyar), Mental Baja
+Hard Mode = Menyebabkan amnesia, insomnia, hipotermia, kejang", serangan jantung, diare, pendarahan hebat, buang air tidak terkendali, rasa ingin baku hantam, frustasi, depresi, pengen ngent*d, terngiang-ngiang, emosi tidak tertahan kan, sakit hati (ambyar), Mental Baja
 ==============================
 Gampang Mode :
 • https://nhentai.net/g/316755/
