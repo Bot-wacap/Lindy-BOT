@@ -1,9 +1,9 @@
 const help = (prefix) => { 
 	return `              
   *Instagram Follow*
- instagram.com/barxnl
+ instagram.com/Uwiw_Bocah
  
-_*>Lindy_BOT<*_
+_*>Khocret_BOT<*_
 
  Hi, _*undefined*_ 
  Berikut adalah fitur pada bot!
@@ -112,7 +112,7 @@ _*Textpro*_
 _*Primbon*_
 ├ *${prefix}ramaljadian* [nama|nama]
 ├ *${prefix}primbonjodoh* [text|text]
-├ *${prefix}artinama* [barxnl]
+├ *${prefix}artinama* [yosep]
 └ *${prefix}ramalhp* [082xxx]
 
 _*Others*_
@@ -157,9 +157,9 @@ _*Owner*_
 ╽
 ╰╼ Ketik *${prefix}info* untuk melihat list informasi tentang bot
        Ketik *${prefix}owner* untuk melihat kontak owner
-         Mau donasi? 082198571732(Telkom)
+         Mau donasi? +085691842186(IM3)
          Jika tidak ingin donasi bantu Follow Ig aja kak 
-         _instagram.com/barxnl_
-    _*BARXNL_BOT © 2020*_`
+         _instagram.com/Uwiw_Bocah_
+    _*KHOCRET_BOT © 2020*_`
 }
 exports.help = help
