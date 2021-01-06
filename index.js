@@ -27,9 +27,9 @@ const anime = JSON.parse(fs.readFileSync('./src/anime.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
-            + 'FN:Barxnl\n' // MENDING LU TOBAT SU!
-            + 'ORG:Creator Barxnl-BOT;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6282198571732:+62 821-9857-1732\n' // JANGAN KEK BABI SU
+            + 'FN:Khocret\n' // MENDING LU TOBAT SU!
+            + 'ORG:Creator Khocret-BOT;\n' // KASIH CREDITS GUA SU!!!
+            + 'TEL;type=CELL;type=VOICE;waid=6285691842186:+62 856-9184-2186\n' // JANGAN KEK BABI SU
             + 'END:VCARD'
 prefix = '#'
 blocked = []
@@ -78,7 +78,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `[ *NEWMEM IN GC ${mdata.subject}* ] \n*_____________*\n@${num.split('@')[0]} ɪɴᴛʀᴏ/ᴅɪᴋɪᴄᴋ \n\nNama: \nUmur: \nAskot: \nCwk apa Cwk: \nDoi?: \nBaca Deks ajg \n *_____________*\nMoga betah Di group!\n\nWajib follow sebelum gunain bot\ninstagram.com\barxnl`
+				teks = `[ *NEWMEM IN GC ${mdata.subject}* ] \n*_____________*\n@${num.split('@')[0]} ɪɴᴛʀᴏ/ᴅɪᴋɪᴄᴋ \n\nNama: \nUmur: \nAskot: \nCwk apa Cwk: \nDoi?: \nBaca Deks ajg \n *_____________*\nMoga betah Di group!\n\nWajib follow sebelum gunain bot\ninstagram.com\Uwiw_Bocah`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -141,9 +141,9 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6282198571732@s.whatsapp.net"] // replace this with your number
-			const adminbotnumber = ["628970065907@s.whatsapp.net"]
-			const frendsowner = ["6282198571732@s.whatsapp.net"]
+			const ownerNumber = ["6285691842186@s.whatsapp.net"] // replace this with your number
+			const adminbotnumber = ["6285691842186@s.whatsapp.net"]
+			const frendsowner = ["6285813655726@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -322,9 +322,9 @@ async function starts() {
 						reply(`Kirim gambar dengan caption ${prefix}sticker atau tag gambar yang sudah dikirim`)
 					}
 					break
-			case 'akbar':
+			case 'uwiw':
                         case 'owner':
-                 client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
+                 client.sendMessage(from, {displayname: "UwiwBocah", vcard: vcard}, MessageType.contact, { quoted: mek})
                  client.sendMessage(from, 'Itu bro BOSS gua😎, Kalau ada perlu chat dia aje, Ajakin baku tumbuk geh!!',MessageType.text, { quoted: mek} )
                  break
                  case 'fitnah':	
@@ -882,7 +882,7 @@ async function starts() {
 					break
                 case 'donasi':
 				case 'donate':
-					client.sendMessage(from, 'Mau donasi ya kak?✨\n\n اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n_“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_\n\n*Pulsa Telkom :* _0821-9857-1732_\n*Trakteer :* _https://trakteer.id/barxnl-bcioz_\n*Saweria :* _https://saweria.co/barxnl\n*Gopay :* _belum tersedia_', text, { quoted: mek })
+					client.sendMessage(from, 'Mau donasi ya kak?✨\n\n اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n_“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_\n\n*Pulsa IM3 :* _0858-1365-5726_\n*Trakteer :* _https://trakteer.id/Uwiw_Bocah_\n*Saweria :* _https://saweria.co/Khocret\n*Gopay :* _belum tersedia_', text, { quoted: mek })
 					break
                 case 'tes':
                    client.sendMessage(from, 'ok', text, {quoted: mek})
