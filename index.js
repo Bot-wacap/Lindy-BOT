@@ -1987,7 +1987,7 @@ async function starts() {
 					}
 				case 'clone':
 					if (!isGroup) return reply(mess.only.group)
-					(!isOwner) return reply(mess.only.ownerB)
+					if (!isOwner) return reply(mess.only.ownerB)
 					if (args.length < 1) return reply('Tag target yang ingin di clone')
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag cvk')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
@@ -2003,7 +2003,7 @@ async function starts() {
 					break
 				case 'setprefix':
 					if (args.length < 1) return
-					(!isOwner) return reply(mess.only.ownerB)
+					if (!isOwner) return reply(mess.only.ownerB)
 					prefix = args[0]
 					reply(`Prefix berhasil di ubah menjadi : ${prefix}`)
 					break
